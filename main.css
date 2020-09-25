@@ -13,3 +13,14 @@
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
   }
+  
+  .face:active {
+    visibility: hidden;
+  }
+
+  .face:active::after {
+    visibility: visible;
+    content: ".)";
+    left: -1.5rem;
+    position: relative;
+  }
