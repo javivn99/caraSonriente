@@ -1,15 +1,30 @@
-.head {
-    background: #fc0;
-    height: 100px;
-    position: relative;
-    width: 100px;
-  }
-  .face {
-    font-family: 'courier new', serif;
-    font-size: 2.5em;
-    font-weight: bold;
-    left: 50%;
+.page {
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -60%) rotate(90deg);
-  }
+    /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%;
+    /* Buscamos el centro vertical (relativo) del navegador */
+    width: 100 px;
+    /* Definimos el ancho del objeto a centrar */
+    height: 100px;
+    /* Definimos el alto del objeto a centrar */
+    margin-top: -50px;
+    /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -50px;
+    /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+    .head {
+        background: #fc0;
+        height: 100px;
+        position: relative;
+        width: 100px;
+    }
+    .face {
+        font-family: 'courier new', serif;
+        font-size: 2.5em;
+        font-weight: bold;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -60%) rotate(90deg);
+    }
