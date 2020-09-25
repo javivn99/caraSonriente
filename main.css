@@ -4,7 +4,14 @@
     position: relative;
     width: 100px;
   }
-  .face {
+  .face::before {
+    visibility: hidden;
+    content: none;
+  }
+
+  .face::after{
+    visibility: visible;
+    content: ":)";
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
