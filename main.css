@@ -6,7 +6,6 @@
   }
   .face {
     visibility: hidden;
-    
   }
 
   .face::after{
