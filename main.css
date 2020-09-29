@@ -4,7 +4,7 @@
     position: relative;
     width: 100px;
   }
-  .face{
+.face{
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
@@ -13,11 +13,11 @@
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
   }
-  .face:hover {
+.face:hover {
     visibility: hidden;
   }
 
-  .face:hover:after{
+.face:hover:after{
     visibility: visible;
     content: ":)";
     left: -1.5rem;
