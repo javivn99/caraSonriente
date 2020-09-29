@@ -4,9 +4,9 @@
     position: relative;
     width: 100px;
   }
-  .face::before {
+  .face {
     visibility: hidden;
-    content: none;
+    
   }
 
   .face::after{
